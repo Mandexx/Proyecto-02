@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+	<title>Ejercicio 2</title>
+	<meta charset="UTF-8">
+	<meta name="title" content="Ejercicio 2">
+	<meta name="description" content="Ejercicio 2">
+	<link href="./estilo.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+     </head>
+     <body background="img/fondo.png">
+	<header class="foto">
+</header>
+<section class="main">
+  <section class="articulos">
+    <article>
+     	<h2>&#8226 Selecione un Pais</h2>
+		 <div >
+    
+    
+			<select name="provincia" class="provincia btn btn-secondary" >
+			  <option>Seleccione un pais</option>
+			 </select>
+	</article>
+
+
+	<article>
+     <h2>&#8226 Datos Meteorologicos</h2>
+	 <div>
+                    
+		<div>
+			Temperatura maxima:
+		</div>
+		<div id="temperaturaMaxima"></div>
+
+		<div>
+			Temperatura minima:
+		</div>
+		<div id="temperaturaMinima"></div>
+
+		<div>
+			Temperatura actual:
+		</div>
+		<div id="temperaturaActual"></div>
+
+		<div >
+			Descripcion:
+		</div>
+		<div id="descripcion"></div>
+
+		<div>
+			Pais:
+		</div>
+		<div  id="pais"></div>
+		</div>
+		</div>
+	
+	</article>
+	<article>
+     <h2>&#8226 información del Pais</h2><br>
+	 <div class="mt-5" id="contenido">  
+	</div>
+
+	</article>
+	
+	
+	   </section>
+
+<aside>
+<h2>Mapa :</h2>
+	<div id="map"></div>
+ 
+                    
+        </div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
+</aside>
+
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+<footer>
+	<h6><center>PAGINA CREADA POR DAVID PINILLA 2021 &reg;</h6>
+	<h6><center>PROHIBIDA LA REPRODUCCIÓN POR CUALQUIER MEDIO &reg;</h6>
+</footer>
+</body>
+</html>
